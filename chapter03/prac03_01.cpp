@@ -1,5 +1,5 @@
 /**
- * @Brief: convert inch to foot
+ * @Brief: convert inch to foot&inch
  * @File: prac03_01.cpp
  * @Author: Myoungs 
  * @Date: 2018/09/30
@@ -9,14 +9,16 @@
 #include <iostream>
 using namespace std;
 
-const double convert_factor = 12.0;
+const int convert_factor = 12;
 
 int main(){
-    double height;
+    int height;
     cout << "Enter your height: _____\b\b\b\b\b";
     cin >> height;
-    double foot = height / convert_factor;
-    cout << "Your height is: " << foot << " feets" << endl;
+    int foot = height / convert_factor;
+    cout << "Your height is: " << foot << " feet";
+    int inch = height % convert_factor;
+    cout << " and " << inch << " inches." << endl;
 
     return 0;
 }
