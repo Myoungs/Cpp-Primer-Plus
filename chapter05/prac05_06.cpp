@@ -1,5 +1,5 @@
 /**
- * @Brief: calculate sales using 2D arrayy
+ * @Brief: calculate sales using 2-D arrayy
  * @File: prac05_06.cpp
  * @Author: Myoungs 
  * @Date: 2018/11/15
